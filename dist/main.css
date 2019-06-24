@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.screen {
+  min-height: 100vh;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative; }
+
+.screen h1 {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  line-height: 100vh;
+  color: #fff;
+  font-size: 3.5em; }
+
+#first-screen {
+  background: rgba(0, 107, 221, 0.76); }
+
+#second-screen {
+  background: #09f9c5b9; }
+
+img {
+  min-height: 200px;
+  width: 100%; }
+
+#third-screen {
+  background: rgba(197, 15, 152, 0.664); }
+
+#fourth-screen {
+  background: rgba(150, 18, 18, 0.637); }
+

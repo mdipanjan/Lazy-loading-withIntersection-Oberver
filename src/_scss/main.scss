@@ -1,0 +1,49 @@
+$color-primary: #09f9c5b9;
+$color-secondary: rgba(0, 107, 221, 0.76);
+$color-tertiary: rgba(197, 15, 152, 0.664);
+$color-tertiary2:rgba(150, 18, 18, 0.637) ;
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html {
+  font-size: 62.5%; 
+}     
+.screen {
+  min-height: 100vh;
+  text-align:center;
+  text-transform: uppercase;
+  position: relative;
+}
+.screen h1 {
+  margin:0;
+  padding:0;
+  white-space: nowrap;
+  line-height: 100vh;
+  color: #fff;
+  font-size: 3.5em;
+}
+#first-screen {
+  background: $color-secondary;
+}
+#second-screen {
+  background: $color-primary;
+}
+// .image-box{
+//   height: 50vh;
+//   width: 50vh;
+// }
+img{
+  min-height: 200px;
+  width: 100%;
+}
+#third-screen {
+  background: $color-tertiary;
+}
+#fourth-screen{
+  background: $color-tertiary2;
+}
